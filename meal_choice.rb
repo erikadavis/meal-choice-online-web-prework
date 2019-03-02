@@ -1,4 +1,5 @@
-def meal_choice(a = "meat")
-  puts "my meal choice is #{a}."
+def meal_choice(food, other = "meat")
+  puts "my meal choice is #{food}."
+  puts "my meal choice is #{other}."
 end
-meal_choice
+meal_choice("vegan")
